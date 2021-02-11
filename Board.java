@@ -1,7 +1,7 @@
 class Board{
     private String nom;
-    private char[][] navires;
-    private boolean[][] frappes;
+    public char[][] navires;
+    public boolean[][] frappes;
 
     public String getNom(){
       return nom;
